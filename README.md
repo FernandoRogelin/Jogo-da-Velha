@@ -1,9 +1,9 @@
 # Jogo da Velha
 
-<h2>Estudo em AngularJS</h2>
+## Estudo em AngularJS
 
-*Um jogo da Velha, que utiliza AngularJS e Node/NPM;
+- Um jogo da Velha, que utiliza AngularJS e Node/NPM;
 
-*O jogo registra a pontuação de cada jogador(quantas vitórias teve);
+- O jogo registra a pontuação de cada jogador(quantas vitórias teve);
 
-*Fala o jogador que ganhou.
+- Fala o jogador que ganhou.
