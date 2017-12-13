@@ -6,4 +6,4 @@
 
 - O jogo registra a pontuação de cada jogador(quantas vitórias teve);
 
-- Fala o jogador que ganhou.
+- Mostra o jogador que ganhou a partida.
