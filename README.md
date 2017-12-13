@@ -1,5 +1,6 @@
 # Jogo da Velha
-Estudo em AngularJS
+
+<h2>Estudo em AngularJS</h2>
 
 *Um jogo da Velha, que utiliza AngularJS e Node/NPM;
 
