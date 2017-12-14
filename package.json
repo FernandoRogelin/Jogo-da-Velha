@@ -1,0 +1,28 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "## Estudo em AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoRogelin/Jogo-da-Velha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoRogelin/Jogo-da-Velha/issues"
+  },
+  "homepage": "https://github.com/FernandoRogelin/Jogo-da-Velha#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.11",
+    "debug-log": "^1.0.1"
+  }
+}

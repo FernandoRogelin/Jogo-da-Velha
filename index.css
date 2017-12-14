@@ -1,0 +1,9 @@
+.tabela{
+  background-color: black;
+}
+
+.linha{
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+}
