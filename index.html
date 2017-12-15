@@ -11,21 +11,22 @@
   <div ng-controller="gameController">
     <table class="tabela">
       <tr>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
+        <td class="linha" ng-click="verifica(0, 0)">{{matriz[0][0]}}</td>
+        <td class="linha" ng-click="verifica(0, 1)">{{matriz[0][1]}}</td>
+        <td class="linha" ng-click="verifica(0, 2)">{{matriz[0][2]}}</td>
       </tr>
       <tr>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
+        <td class="linha" ng-click="verifica(1, 0)">{{matriz[1][0]}}</td>
+        <td class="linha" ng-click="verifica(1, 1)">{{matriz[1][1]}}</td>
+        <td class="linha" ng-click="verifica(1, 2)">{{matriz[1][2]}}</td>
       </tr>
       <tr>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
-        <td class="linha" ng-click=""></td>
+        <td class="linha" ng-click="verifica(2, 0)">{{matriz[2][0]}}</td>
+        <td class="linha" ng-click="verifica(2, 1)">{{matriz[2][1]}}</td>
+        <td class="linha" ng-click="verifica(2, 2)">{{matriz[2][2]}}</td>
       </tr>
     </table>
+    <p class="invalido">{{ msg }}</p>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
   <script src="JS/index.js"></script>

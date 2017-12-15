@@ -3,8 +3,14 @@
 }
 
 .linha{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background-color: greenyellow;
   cursor: pointer;
+  text-align: center;
+  font-size: 110px;
+}
+
+.invalido{
+  font-size: 50px;
 }
