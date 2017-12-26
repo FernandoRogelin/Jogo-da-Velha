@@ -17,17 +17,19 @@ const app = angular.module("tic-tac-toe", [])
         $scope.matriz[raiz][raiz2] = letra;
         var a = (letra === 'X') ? 'O' : 'X';
         letra = a;
-        checa();
+        $scope.checa();
       }
     }
 
-    var winner;
+    var winner = ' ';
 
-    function checa() {
+    $scope.checa = function() {
       for (var i = 0; i < 3; i++) {
-        if ($scope.matriz[i][0] === $scope.matriz[i][1] === $scope.matriz[i][2])
+        if ($scope.matriz[i][0] === $scope.matriz[i][1] === $scope.matriz[i][2]){
           winner = $scope.matriz[i][0];
           console.log(winner);
+        }
+          
         if ($scope.matriz[0][i] === $scope.matriz[1][i] === $scope.matriz[2][i])
           winner = $scope.matriz[0][i];
       }
